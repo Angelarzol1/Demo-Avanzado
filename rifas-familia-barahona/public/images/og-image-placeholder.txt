@@ -1,0 +1,4 @@
+<!-- Placeholder for OG image - In production, replace with actual image -->
+<!-- This file indicates where the Open Graph image should be placed -->
+<!-- Recommended size: 1200x630px -->
+<!-- Path: /public/images/og-image.jpg -->

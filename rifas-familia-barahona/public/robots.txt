@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rifas-familia-barahona.vercel.app/sitemap.xml
+
+# Specific disallows for admin areas
+User-agent: *
+Disallow: /admin-simple/
+Disallow: /admin/
+
+# Allow all other content
+User-agent: *
+Allow: /
+Allow: /payment/

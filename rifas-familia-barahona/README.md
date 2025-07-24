@@ -1,8 +1,12 @@
-# Rifas Familia Barahona
+# 🎯 Rifas Familia Barahona
 
 Una aplicación web moderna para rifas y sorteos, desarrollada con Next.js 15 y diseño minimalista.
 
-## Características
+## 🌟 Demo en Vivo
+
+🚀 **[Ver Demo](https://rifas-familia-barahona.vercel.app)**
+
+## 🎮 Características
 
 - 🎯 **Sistema de Rifas**: Catálogo completo con productos premium
 - 👤 **Autenticación**: Sistema de login/registro de usuarios
@@ -10,31 +14,45 @@ Una aplicación web moderna para rifas y sorteos, desarrollada con Next.js 15 y 
 - 🛡️ **Admin Panel**: Gestión completa de rifas y pagos
 - 📱 **Responsive**: Diseño adaptativo para todos los dispositivos
 - ⚡ **Moderno**: Next.js 15 con Tailwind CSS y animaciones
+- 🖼️ **Optimizado**: Imágenes optimizadas y rendimiento mejorado
 
-## Credenciales de Administrador
+## 🔑 Credenciales de Prueba
 
+### Administrador
 - **Usuario**: `admin`
 - **Contraseña**: `admin`
 
-## Getting Started
+### Usuarios Normales
+- Cualquier email y contraseña funciona para testing
 
-First, run the development server:
+## 🛠️ Tecnologías
+
+- **Framework**: Next.js 15 con App Router
+- **Lenguaje**: TypeScript
+- **Estilos**: Tailwind CSS
+- **Animaciones**: Framer Motion
+- **Formularios**: React Hook Form + Zod
+- **Iconos**: Lucide React
+- **Notificaciones**: React Hot Toast
+
+## 🚀 Instalación Local
 
 ```bash
+# Clonar el repositorio
+git clone [repository-url]
+cd rifas-familia-barahona
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Abrir en el navegador
+# http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ```
 src/
@@ -42,7 +60,9 @@ src/
 │   ├── page.tsx          # Página principal
 │   ├── layout.tsx        # Layout principal
 │   ├── admin/page.tsx    # Panel de administración
-│   └── payment/page.tsx  # Procesamiento de pagos
+│   ├── admin-simple/     # Panel admin simplificado
+│   ├── payment/page.tsx  # Procesamiento de pagos
+│   └── not-found.tsx     # Página 404 personalizada
 ├── components/
 │   ├── Header.tsx        # Navegación principal
 │   ├── Footer.tsx        # Pie de página
@@ -58,25 +78,58 @@ src/
     └── mockData.ts       # Datos de ejemplo
 ```
 
-## Rutas Disponibles
+## 🌐 Rutas Disponibles
 
 - `/` - Página principal con catálogo de rifas
-- `/admin` - Panel de administración (requiere login)
+- `/admin` - Panel de administración completo
+- `/admin-simple` - Panel de administración simplificado
 - `/payment` - Procesamiento de pagos
+- `/test` - Página de pruebas y diagnóstico
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Funcionalidades del Demo
 
-## Learn More
+### Para Usuarios
+1. **Explorar Rifas**: Catálogo con 6 productos premium
+2. **Registro/Login**: Sistema de autenticación completo
+3. **Selección de Números**: Manual o aleatoria
+4. **Proceso de Pago**: Múltiples métodos de pago
+5. **Términos y Condiciones**: Conforme a CONALOT
 
-To learn more about Next.js, take a look at the following resources:
+### Para Administradores
+1. **Dashboard**: Estadísticas en tiempo real
+2. **Gestión de Rifas**: CRUD completo de rifas
+3. **Aprobación de Pagos**: Sistema de validación
+4. **Gestión de Usuarios**: Administración de participantes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Deploy en Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Fork este repositorio**
+2. **Conectar con Vercel**
+3. **Configurar variables de entorno** (opcional)
+4. **Deploy automático** ✅
 
-## Deploy on Vercel
+## 📞 Información de Contacto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Empresa**: Familia Barahona
+- **Descripción**: Rifas Exclusivas
+- **Regulación**: CONALOT
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Notas para Producción
+
+- Las imágenes de productos son de demostración
+- Los datos de pago son de ejemplo
+- Sistema preparado para integración con APIs reales
+- Base de datos mock (localStorage)
+
+## 🤝 Contribuciones
+
+Este es un proyecto de demostración. Para uso en producción, considerar:
+
+- Integración con base de datos real
+- Sistema de pagos real
+- Autenticación robusta
+- Imágenes optimizadas de productos reales
+
+---
+
+🎉 **Demo listo para presentación y testing completo**
